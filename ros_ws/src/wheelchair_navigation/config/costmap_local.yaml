@@ -1,0 +1,19 @@
+# costmap_local.yaml
+# Local costmap: small rolling window centered on the robot, feeding the
+# DWA local planner's real-time obstacle avoidance.
+
+local_costmap:
+  global_frame: odom            # local costmap tracks odom, not map, for smooth local planning
+  robot_base_frame: base_link
+
+  update_frequency: 5.0         # Hz -- must keep up with DWA's control loop
+  publish_frequency: 5.0
+  static_map: false
+  rolling_window: true
+  width: 4.0                     # meters -- local window size around the robot
+  height: 4.0
+  resolution: 0.05               # meters/cell; matches typical RPLidar A2M8 planning resolution
+
+  plugins:
+    - {name: obstacle_layer,   type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation_layer,  type: "costmap_2d::InflationLayer"}

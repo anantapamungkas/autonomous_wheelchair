@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+  hardware.launch
+  Brings up the low-level hardware interface layer:
+    1. rosserial_python <-> Teensy firmware bridge (cmd_vel down, encoder/heading up)
+    2. rplidar_ros driver node for the RPLidar A2M8
+
+  This launch file intentionally does NOT start navigation (move_base);
+  see navigation.launch for that layer. Keeping hardware and navigation
+  separated lets you bring up sensors/actuators standalone for bench testing.
+-->
+<launch>
+  <!-- ===================== Serial port arguments ===================== -->
+  <arg name="teensy_port" default="/dev/ttyACM0" />
+  <arg name="teensy_baud" default="115200" />
+  <arg name="lidar_port"  default="/dev/ttyUSB0" />
+
+  <!-- ===================== Teensy / rosserial bridge ===================== -->
+  <node pkg="rosserial_python" type="serial_node.py" name="teensy_rosserial"
+        respawn="true" respawn_delay="2">
+    <param name="port" value="$(arg teensy_port)" />
+    <param name="baud" value="$(arg teensy_baud)" />
+  </node>
+
+  <!-- ===================== RPLidar A2M8 driver ===================== -->
+  <node pkg="rplidar_ros" type="rplidarNode" name="rplidar_node" output="screen">
+    <param name="serial_port"      value="$(arg lidar_port)" />
+    <param name="serial_baudrate"  value="115200" />          <!-- A2M8 default -->
+    <param name="frame_id"         value="laser" />
+    <param name="inverted"         value="false" />
+    <param name="angle_compensate" value="true" />
+    <param name="scan_mode"        value="Standard" />
+  </node>
+
+  <!-- ===================== Odometry node (wheelchair_base) ===================== -->
+  <node pkg="wheelchair_base" type="odom_publisher" name="odom_publisher" output="screen" />
+
+  <!-- ===================== Static transform: base_link -> laser ===================== -->
+  <!-- Adjust translation/rotation to the physical lidar mounting offset. -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="base_to_laser"
+        args="0.15 0.0 0.35 0 0 0 base_link laser" />
+</launch>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>wheelchair_bringup</name>
+  <version>1.0.0</version>
+  <description>Top-level launch files bringing up wheelchair hardware and navigation.</description>
+  <maintainer email="robotics@example.com">Robotics Team</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>rosserial_python</exec_depend>
+  <exec_depend>rplidar_ros</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <exec_depend>amcl</exec_depend>
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>wheelchair_base</exec_depend>
+  <exec_depend>wheelchair_navigation</exec_depend>
+</package>
