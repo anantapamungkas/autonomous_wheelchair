@@ -1,2 +1,0 @@
-wheelchair_base
--DCATKIN_DEVEL_PREFIX=/home/isr/Documents/2021_anantapamungkas/autonomous_wheelchair/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/isr/Documents/2021_anantapamungkas/autonomous_wheelchair/ros_ws/install -G Unix Makefiles
