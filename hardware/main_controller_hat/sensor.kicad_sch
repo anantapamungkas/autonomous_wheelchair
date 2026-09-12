@@ -2309,7 +2309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09c28c1d-6bfc-4968-9cd5-f743dfcaf95e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR064"
 			(at 166.37 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2369,7 +2369,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR066")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "100a2051-773f-4382-b240-79b5f6f6cba6")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR068"
 			(at 208.28 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2446,7 +2446,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1744179f-6467-43ac-950c-a2eb80293fc2")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR058"
 			(at 101.6 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2524,7 +2524,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR065")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2655,7 +2655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ab7ae8-222b-44af-a353-e138aade5b5a")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR061"
 			(at 146.05 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2716,7 +2716,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR068")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2733,7 +2733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32ef7d65-41ce-4b36-9376-05bb4e219e9b")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 118.11 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2793,7 +2793,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2811,7 +2811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43f12e09-06a4-4040-ad3d-839d6aab27de")
-		(property "Reference" "R21"
+		(property "Reference" "R28"
 			(at 104.14 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2833,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -2897,7 +2897,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R21")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2914,7 +2914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51c571f3-920d-4e73-b9bb-070e31398ab7")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR067"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2974,7 +2974,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR061")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2992,7 +2992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54df23b8-f321-4364-9c82-a283e0177c34")
-		(property "Reference" "R24"
+		(property "Reference" "R27"
 			(at 88.9 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,7 +3014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -3078,7 +3078,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R24")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3096,7 +3096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6327d31c-9d56-469f-b8e1-793fedd5e9df")
-		(property "Reference" "R20"
+		(property "Reference" "R26"
 			(at 88.9 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 84.582 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -3182,7 +3182,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R20")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3200,7 +3200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f44de90-49bd-4407-8e03-db45f3f871b5")
-		(property "Reference" "R25"
+		(property "Reference" "R29"
 			(at 104.14 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,7 +3222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -3286,7 +3286,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R25")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3304,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80255f8f-acdb-4cb5-acec-f490605a41ad")
-		(property "Reference" "J8"
+		(property "Reference" "J11"
 			(at 215.9 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3396,7 +3396,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "J8")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3414,7 +3414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b82bb7-7dd0-4542-8683-120e6b47b04f")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 135.89 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +3506,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "899bdcd9-9675-40e5-9ddd-f5fb6a730374")
-		(property "Reference" "Q4"
+		(property "Reference" "Q5"
 			(at 173.99 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3614,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -3710,7 +3710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a26d316f-f57a-4043-82ec-e5a2f219574e")
-		(property "Reference" "R27"
+		(property "Reference" "R33"
 			(at 184.15 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +3732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.832 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -3796,7 +3796,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R27")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3922,7 +3922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3e61d22-da86-4974-83cf-7c8b7198b1eb")
-		(property "Reference" "R22"
+		(property "Reference" "R30"
 			(at 168.91 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3944,7 +3944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.592 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -4008,7 +4008,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R22")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4026,7 +4026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b156fd02-b55e-40d7-98aa-3a3fb292fd95")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR065"
 			(at 181.61 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4086,7 +4086,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR059")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4104,7 +4104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd84cfc8-dd0a-4535-8354-b41f80f7dc3b")
-		(property "Reference" "R26"
+		(property "Reference" "R31"
 			(at 168.91 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4126,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 164.592 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -4190,7 +4190,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R26")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4207,7 +4207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5bbac0a-3599-4161-9ed9-4f618dcb8a8d")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR060"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4267,7 +4267,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR062")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4285,7 +4285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6f5eb30-be11-405f-876c-af31afc3e194")
-		(property "Reference" "R23"
+		(property "Reference" "R32"
 			(at 184.15 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,7 +4307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.832 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -4371,7 +4371,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "R23")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0cb2e22-6eb1-4cad-9ac1-086cd52d7cd0")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR055"
 			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4449,7 +4449,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR056")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4467,7 +4467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e79ca728-793a-4c28-b8ab-febc3f46afc4")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR066"
 			(at 181.61 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4527,7 +4527,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR067")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4653,7 +4653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea903d43-4c34-42e0-988a-d887d3e2e966")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 166.37 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4713,7 +4713,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4731,7 +4731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f43924e8-7cea-499e-a56b-73bfd46614b4")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR062"
 			(at 135.89 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4792,7 +4792,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR069")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4810,7 +4810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc0691f8-dce9-484a-bd32-24f9a87daf6f")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 93.98 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +4900,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4918,7 +4918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd54b4bf-af95-4b58-8707-f3148b545cf9")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR056"
 			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4978,7 +4978,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/f5e35a8e-137b-49b3-aefe-541403563ab8"
-					(reference "#PWR064")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)

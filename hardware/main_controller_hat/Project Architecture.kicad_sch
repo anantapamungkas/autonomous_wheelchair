@@ -462,7 +462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18ae534a-145b-41a9-b76e-c660bd4ee838")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 256.54 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -542,7 +542,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -560,7 +560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d36b67ba-12bb-4080-999e-3bfe752bd4c2")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 255.27 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -640,7 +640,7 @@
 		(instances
 			(project "main_controller_hat"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)

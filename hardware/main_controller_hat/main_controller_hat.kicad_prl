@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 5,
-    "active_layer_preset": "All Layers",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_00000002_2200888d",
     "zone_display_mode": 0
   },
   "git": {
@@ -97,20 +97,20 @@
       13
     ],
     "col_widths": [
-      162,
-      147,
-      91,
+      104,
+      94,
+      82,
       67,
-      91,
-      91,
-      91,
       71,
-      91,
-      91,
-      91,
-      91,
-      91,
-      91
+      84,
+      72,
+      71,
+      85,
+      85,
+      63,
+      85,
+      85,
+      63
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -118,7 +118,7 @@
     "filter_by_netclass": true,
     "filter_text": "",
     "group_by_constraint": false,
-    "group_by_netclass": true,
+    "group_by_netclass": false,
     "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
